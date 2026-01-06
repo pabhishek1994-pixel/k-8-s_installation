@@ -5,7 +5,7 @@ on:
 
 jobs:
   This_is_clone:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps: 
-      uses: actions/checkout@v4
-      run: ls-lart
+      - uses: actions/checkout@v4
+      - run: ls-lart
