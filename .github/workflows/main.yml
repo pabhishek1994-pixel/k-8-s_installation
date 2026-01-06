@@ -1,0 +1,11 @@
+name: demo2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  This_is_clone:
+    runs-on: ubuntu_latest
+    steps: 
+      uses: actions/checkout@v4
+      run: ls-lart
